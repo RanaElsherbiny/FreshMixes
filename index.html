@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <title>FreshMixes</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body>
+        <!-- ---- Navbar Section ---- -->  
+        <nav>
+            <div class="nav-header">
+                <div class="logo nav-logo">
+                    <a href="#">Fresh<span>Mixes</span></a>
+                </div>
+                <div class="nav-menu-btn" id="menu-btn">
+                    <span><i class="ri-menu-line"></i></span>
+                </div>
+            </div>
+
+            <ul class="nav-links" id="nav-link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#special">Menu</a></li>
+                <li><a href="#our-story">Our Story</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            
+            <div class="nav-btn">
+                <button class="btn">
+                    <i class="ri-shopping-cart-2-fill"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- ---- Header Section ---- -->  
+        <header class="section-container header-container" id="home">
+            <div class="header-image">
+                <img src="images/image-1.png" alt="header img">
+            </div>
+            <div class="header-content">
+                <h1>Meet, Eat & Enjoy The <span>True Taste</span>.</h1>
+                <p class="section-description">
+                  Uncover the essence of wholesome dining as you explore, enjoy, and relish the vibrant flavors that reflect our commitment to nutritious cuisine.
+                </p>
+                <div class="header-btn">
+                    <button class="btn">Order Now!</button>
+                </div>
+            </div>
+        </header>
+        <!-- ---------------- Menu section----------------- -->
+        <section class="section-container special-container" id="special">
+            <h2 class="section-header">Our Special Dish</h2>
+            <p class="section-description">
+                 Each dish promises an unforgettable dining experience, blending
+                 innovation with tradition to delight your senses.
+            </p>
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-card">
+                    <div class="fly-item"><span>Best Saller!</span></div>
+                    <img src="images/salad-1.png" alt="salad-1">
+                    <h4>Grilled Chicken Avocado Delight</h4>
+                    <p>
+                      Salad featuring sliced grilled chicken, creamy avocado, and a mix of fresh greens. 
+                      Bright cherry tomatoes, sweet corn, and crisp cucumber add vibrant textures and flavors, creating an appetizing and healthy meal.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$13.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="menu-card">
+                    
+                    <img src="images/salad-2.png" alt="salad-2">
+                    <h4>Sesame Chicken Avocado Salad</h4>
+                    <p>
+                      Salad featuring tender slices of grilled chicken, vibrant green avocado, and juicy tomato slices.
+                      Garnished with lime and sprinkled with sesame seeds, the dish combines fresh greens and colorful ingredients for a nutritious and visually appealing meal.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$10.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="menu-card">
+                    
+                    <img src="images/salad-3.png" alt="salad-3">
+                    <h4>Hearty Steak and Egg Salad</h4>
+                    <p>
+                      A robust salad topped with tender chunks of grilled steak and sliced hard-boiled eggs, creating a satisfying protein-rich meal. Fresh greens, cherry tomatoes, 
+                      and baby potatoes are drizzled with a creamy dressing, adding a delicious flavor and vibrant appeal.
+                     </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$12.00</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 4 -->
+                <div class="menu-card">
+                    
+                    <img src="images/salad-4.png" alt="salad-4">
+                    <h4>Savory Steak Salad Bowl</h4>
+                    <p>
+                      A hearty salad featuring crispy slices of seared steak alongside sliced hard-boiled eggs, vibrant green beans, and colorful cherry tomatoes.
+                      Drizzled with a rich, creamy dressing and complemented by tender baby potatoes, the dish offers a delightful mix of flavors and textures.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$13.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 5 -->
+                <div class="menu-card">
+                    <div class="fly-item"><span>Best Saller!</span></div>
+                    <img src="images/salad-5.png" alt="salad-5">
+                    <h4>Refreshing Salmon Poke Bowl</h4>
+                    <p>
+                      A vibrant poke bowl filled with fresh, marinated salmon, creamy avocado slices, and sweet mango chunks. 
+                      Topped with crunchy cucumbers, colorful red cabbage, and a sprinkle of sesame seeds, this dish offers a delightful combination of flavors and textures.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$11.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 6 -->
+                <div class="menu-card">
+                   
+                    <img src="images/salad-6.png" alt="salad-6">
+                    <h4>Stir-Fried Shrimp and Snap Peas</h4>
+                    <p>
+                      A vibrant stir-fry featuring succulent shrimp tossed with crisp sugar snap peas and tender baby corn. 
+                      The dish is bursting with color and flavor, highlighting the freshness of the vegetables and the savory essence of the shrimp.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$8.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 7 -->
+                <div class="menu-card">
+                    
+                    <img src="images/salad-7.png" alt="salad-7">
+                    <h4>Colorful Rice Bowl with Egg</h4>
+                    <p>
+                      A vibrant rice bowl topped with a perfectly cooked sunny-side-up egg, creamy avocado slices, and juicy cherry tomatoes. 
+                      Complemented by sweet corn and fresh cucumber, this dish offers a delightful balance of flavors and textures.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$7.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 8 -->
+                <div class="menu-card">
+                    
+                    <img src="images/salad-8.png" alt="salad-8">
+                    <h4>Quinoa-Stuffed Bell Pepper</h4>
+                    <p>
+                      A bell pepper filled with a hearty quinoa mixture, black beans, and corn, 
+                      surrounded by fresh vegetables like avocado and cherry tomatoes. Served with a side of salsa, this colorful dish is both nutritious and visually appealing.
+                     </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$6.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 9 -->
+                <div class="menu-card">
+                    <div class="fly-item"><span>Best Saller!</span></div>
+                    <img src="images/salad-9.png" alt="salad-9">
+                    <h4>Quinoa and Black Bean Salad</h4>
+                    <p>
+                      A refreshing salad loaded with quinoa, black beans, 
+                      and a medley of colorful vegetables, including tomatoes and mango. Garnished with fresh cilantro and lime, this dish offers a vibrant and healthy meal option.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$10.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 10 -->
+                <div class="menu-card">
+                    <div class="fly-item"><span>Best Saller!</span></div>
+                    <img src="images/salad-10.png" alt="salad-10">
+                    <h4>Berry Smoothie Bowl</h4>
+                    <p>
+                      A beautifully arranged smoothie bowl topped with an array of fresh berries, coconut, and almonds.
+                      The colorful presentation highlights the delicious combination of flavors, making it a delightful and nutritious breakfast choice.
+                   </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$8.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 11 -->
+                <div class="menu-card">
+                    
+                    <img src="images/salad-11.png" alt="salad-11">
+                    <h4>Citrus and Mozzarella Salad</h4>
+                    <p>
+                      A fresh salad composed of mixed greens, cherry tomatoes, and creamy mozzarella balls, 
+                      accented with slices of avocado and orange. The bright colors and variety of textures create an inviting and refreshing dish.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$7.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 12 -->
+                <div class="menu-card">
+                    
+                    <img src="images/salad-12.png" alt="salad-12">
+                    <h4>Tropical Smoothie Bowl</h4>
+                    <p>
+                      A vibrant smoothie bowl adorned with mango chunks, blackberries, and strawberries, topped with coconut and almonds. 
+                      The colorful arrangement offers a nutritious and visually appealing treat for any time of day.
+                    </p>
+                    <div class="menu-rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-half-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                    </div>
+                    <div>
+                        <p class="price">$8.50</p>
+                        <button class="btn">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- ------------ story section -------------- -->
+        <section class="section-container story-container" id="our-story">
+            <div class="story-image">
+                <img src="images/salad.png" alt="story">
+            </div>
+            <div class="story-content">
+                <h1 class="section-header">We Serve Healthy & Tasty Food</h1>
+                 <p class="section-description">
+                      Indulge guilt-free with our commitment to serving wholesome and
+                      delicious meals. Explore a menu curated to balance taste and
+                      nutrition, ensuring every bite is both satisfying and nourishing.
+                 </p>
+                 <div class="story-btn">
+                    <button class="btn">
+                        Our Story <span><i class="ri-arrow-right-line"></i></span>
+                    </button>
+                 </div>
+            </div>
+        </section>
+        <!-- poster-card section ------------------ -->
+        <section class="section-container poster-container" id="post-card">
+            <div class="poster-card">
+              <span class="poster-icon"><i class="ri-bowl-fill"></i></span>
+              <h4>Order Your Meal</h4>
+              <p>
+                Easily place your food orders online in just a few clicks. Experience the convenience and efficiency of choosing from our wide selection of delicious dishes.
+              </p>
+              <a href="#">
+                Read more
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+            <div class="poster-card">
+              <span class="poster-icon"><i class="ri-truck-fill"></i></span>
+              <h4>Savor Your Meal</h4>
+              <p>
+                Sit back, unwind, and enjoy the exquisite flavors as your carefully crafted dish is served. Relish every delightful bite, knowing that your satisfaction is our highest priority.
+              </p>
+              <a href="#">
+                Read more
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+            <div class="poster-card">
+              <span class="poster-icon"><i class="ri-star-smile-fill"></i></span>
+              <h4>Enjoy Your Food</h4>
+              <p>
+                Sit back, relax, and savor the flavors as your meticulously prepared
+                meal arrives. Delight in the deliciousness of every bite, knowing that
+                your satisfaction is our top priority.
+              </p>
+              <a href="#">
+                Read more
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </section>
+          <!-- chefs section-->
+          <section class="chef" id="chef">
+            <div class="section-container chef-container">
+              <div class="chef-image">
+                <img src="images/chef.png" alt="chef" />
+              </div>
+              <div class="chef-content">
+                <h2 class="section-header">Cooked By The Best Chefs In The World</h2>
+                <p class="section-description">
+                  Embrace the benefits of nutritious meals crafted by expert chefs dedicated to wellness. Our culinary team combines fresh, wholesome ingredients with creativity and passion to offer delightful dining experiences that promote a healthy lifestyle.
+                </p>
+                <ul class="chef-list">
+                  <li>
+                    <span><i class="ri-checkbox-fill"></i></span>
+                    Savor vibrant dishes made from organic, seasonal produce.
+                  </li>
+                  <li>
+                    <span><i class="ri-checkbox-fill"></i></span>
+                    Explore innovative recipes that prioritize nutrition and flavor. 
+                  </li>
+                  <li>
+                    <span><i class="ri-checkbox-fill"></i></span>
+                    Enjoy meals designed with a commitment to health and well-being.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+      
+          <!-- reviews  section -->
+          <section class="section-container client-container" id="reviews">
+            <h2 class="section-header">Hear from Our Happy Guests!</h2>
+            <p class="section-description">
+              Dive into the inspiring stories and testimonials from our valued patrons. Discover the feedback and reviews that reflect our unwavering commitment to quality,
+               outstanding service, and total customer satisfaction.
+            </p>
+            <div class="client-swiper">
+              <!-- Slider main container -->
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="client-card">
+                      <h4>Emily R</h4>
+                      <img src="images/client-0.jpg" alt="client" />
+                      <p>
+                        FoodMan's culinary expertise never fails to impress! Every
+                        dish is a masterpiece, bursting with flavor and freshness.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="client-card">
+                      <h4>James T</h4>
+                      <img src="images/client-1.jpg" alt="client" />
+                      <p>
+                        I absolutely love Green Plate! Their smoothie bowls are a game changer—fresh, delicious, and packed with nutrients. 
+                        The atmosphere is cozy, and the staff is always so friendly. It’s my go-to spot for a healthy breakfast!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="client-card">
+                      <h4>Michael Thompson</h4>
+                      <img src="images/client-2.jpg" alt="client" />
+                      <p>
+                        Fresh Eats has completely transformed my lunch routine. Their quinoa salad is bursting with flavor,
+                         and I appreciate the variety of vegan options. Plus, the portion sizes are generous. Highly recommend for anyone looking to eat healthier!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+          <!--footer section-->
+          <footer class="footer" id="contact">
+            <div class="section-container footer-container">
+              <div class="footer-col">
+                <div class="logo footer-logo">
+                  <a href="#">Fresh<span>Mixes</span></a>
+                </div>
+                <p class="section-description">
+                  Discover the art of flavor with FreshMixes, where passion meets the plate and each meal is a celebration of culinary excellence.
+                </p>
+              </div>
+              <div class="footer-col">
+                <div class="footer-hours">
+                  <h2 class="ftr-heading-1">Open Hours</h2>
+                  <ul class="list-unstyled open-hours">
+                    <li class="d-flex"><span>Monday</span><span>8:00 - 20:00</span></li>
+                    <li class="d-flex"><span>Tuesday</span><span>8:00 - 20:00</span></li>
+                    <li class="d-flex"><span>Wednesday</span><span>8:00 - 20:00</span></li>
+                    <li class="d-flex"><span>Thursday</span><span>8:00 - 20:00</span></li>
+                    <li class="d-flex"><span>Friday</span><span>8:00 - 02:00</span></li>
+                    <li class="d-flex"><span>Saturday</span><span>8:00 - 02:00</span></li>
+                    <li class="d-flex"><span>Sunday</span><span> 8:00 - 02:00</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-col">
+                <div class="footer-contact">
+                     <h2 class="ftr-heading-1 ">Contact</h2>
+                        <p class="ri-2"><span><a href="#"><i class="ri-map-pin-fill"></i></a></span>555 Street, New York, USA</p>
+                        <p class="ri-2"><span><a><i class="ri-phone-fill"></i></a></span>+012 222 22222</p>
+                        <p class="ri-2"><span><a><i class="ri-mail-fill"></i></a></span>FreshMixes@example.com</p>
+                        <div class="d-flex">
+                            <a class="btn-social" href=""><i class="ri-twitter-fill"></i></a>
+                            <a class="btn-social" href=""><i class="ri-facebook-circle-fill"></i></a>
+                            <a class="btn-social" href=""><i class="ri-youtube-fill"></i></a>
+                            <a class="btn-social" href=""><i class="ri-pinterest-fill"></i></a>
+                        </div>
+                </div>
+              </div>
+
+              
+            </div>
+            <div class="footer-bar">
+              Code By Rana-Elsherbiny
+            </div>
+          </footer>
+      
+          <script src="https://unpkg.com/scrollreveal"></script>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+    </body>
+</html>
