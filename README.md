@@ -8,4 +8,10 @@ The site highlights FreshMixes’ commitment to freshness and balanced nutrition
 
 
 
+**Live site:** [https://ranaelsherbiny.github.io/FreshMixes/](https://ranaelsherbiny.github.io/FreshMixes/)
+**Figma design:** [https://www.figma.com/design/wV4kZluppLpow9IG8slarg/FreshMixes?node-id=2-2&t=y69xtdhx6kjRfV7r-1](https://www.figma.com/design/wV4kZluppLpow9IG8slarg/FreshMixes?node-id=2-2&t=y69xtdhx6kjRfV7r-1)
+
+
+
+
 
